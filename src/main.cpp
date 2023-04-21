@@ -14,17 +14,22 @@ void setup() {
 
 void loop() {
   for (int i = 0; i < strip.numPixels(); i++) {
-    strip.setPixelColor(i, strip.Color(255, 0, 0));
+    strip.setPixelColor(i, strip.Color(255, 0, 0)); //Couleur rouge
     strip.show();
     delay(100);
   }
   for (int i = 0; i < strip.numPixels(); i++) {
-    strip.setPixelColor(i, strip.Color(0, 255, 0));
+    strip.setPixelColor(i, strip.Color(0, 255, 0)); //Couleur verte
     strip.show();
     delay(100);
   }
   for (int i = 0; i < strip.numPixels(); i++) {
-    strip.setPixelColor(i, strip.Color(0, 0, 255));
+    strip.setPixelColor(i, strip.Color(0, 0, 255)); //Couleur bleue
+    strip.show();
+    delay(100);
+  }
+  for (int i = 0; i < strip.numPixels(); i++) {
+    strip.setPixelColor(i, strip.Color(255, 0, 255)); //Couleur violette
     strip.show();
     delay(100);
   }
